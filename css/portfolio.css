@@ -1,0 +1,74 @@
+#div1 { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1
+}
+
+.portfolio {
+	margin-left: 8px;
+}
+
+.portfolio table td {
+	padding: 5px
+}
+
+.portfolio>div, .portfolio>div>div {
+	border: 1px solid #ccc;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	display: block;
+	width: 156px;
+	height: 126px;
+	margin: 6px;
+	float: left;
+}
+
+.portfolio>#toggle_logotypes {
+	border: none;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	float: none;
+}
+
+.portfolio>div>a {
+	background: none;
+	display: block;
+	border: 0;
+	width: 156px;
+	height: 126px;
+}
+
+.portfolio>div>a:hover {
+	background-color: #caefb5;
+}
+
+.portfolio .hidden {
+	display: none
+}
+
+.phead {
+	margin-top: 30px;
+	width: 100%;
+	background: #CDEABD bottom repeat-x url(../images/catbg.gif);
+	margin-bottom: 14px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.phead p {
+	margin: 0;
+	padding: 0;
+	font-size: 140%;
+	letter-spacing: 2px
+}
+
+.phead td {
+	padding: 6px 10px
+}
+
+.phead .col2 {
+	text-align: right;
+	padding-right: 12px
+}

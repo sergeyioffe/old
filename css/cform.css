@@ -1,0 +1,70 @@
+fieldset {
+	border: 1px solid #ccc;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin: 2em 0;
+	padding: 0
+}
+
+legend {
+	text-align: left;
+	margin-left: -480px;
+	padding: 0 .3em;
+}
+
+#contact {
+	text-align: left;
+	padding: 25px 30px 21px;
+	margin: 0
+}
+
+#contact table {
+	width: 100%
+}
+
+#contact .left {
+	width: 40%
+}
+
+#contact .right {
+	padding-left: 21px;
+	padding-bottom: 10px;
+}
+
+.left span, .right span {
+	color: #99CC99;
+	font-size: 180%
+}
+
+#contact .text {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 115%;
+	padding: 6px;
+	border: 2px inset #eee;
+	background: #cdeabd;
+	width: 100%
+}
+
+#contact #message {
+	font-size: 115%;
+	border: 2px inset #eee;
+	width: 98%;
+	padding: 6px;
+	background: #cdeabd;
+	font-family: Verdana, Helvetica, sans-serif
+}
+
+.submit {
+}
+
+#submit {
+	width: 99px;
+	height: 25px;
+	cursor: pointer;
+}
+
+#contact div .right span, #contact div .submit span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 180%;
+	color: #95B782
+}
