@@ -180,13 +180,9 @@ a img {
 	font-weight: bold;
 }
 
-#cr {
-	margin: 1.2em 0 2em;
-}
-
-.ico {
-	margin: 0 0 -5px 0;
-}
+footer p {
+	padding: 2em auto;
+}	
 
 #index {
 	width: 100%;
