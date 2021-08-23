@@ -3,6 +3,8 @@ body {
 	margin: 0;
 	font-family: Verdana, Helvetica, sans-serif;
 	cursor: default;
+	font-size: 90%;
+	background: #e6ffd8 url(../images/lightbg.jpg) repeat-x;
 }
 
 h1 {
