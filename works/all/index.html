@@ -67,12 +67,10 @@
 			</tr></table>
 				<script>
 					$(function () {
-    						var parent2 = $(".rand2");
+    						var parent2 = $(".rand2").not("#toggle_logotypes");
 			    			var divs2 = parent2.children();
 			    			while (divs2.length) {
-							if not $("#toggle_logotypes")
 			        				parent2.append(divs2.splice(Math.floor(Math.random() * divs2.length), 1)[0]);
-							}
 			    			}
 					});
 				</script>			
