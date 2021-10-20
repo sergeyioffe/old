@@ -65,16 +65,18 @@
 				<td class="col1"><p>Logos</p></td>
 				<td class="col2"><a href="#all" style="font-weight:bold;" onclick="toggle('toggle_logotypes')">View all</a></td>
 			</tr></table>
-			<div class="portfolio rand2">
 				<script>
 					$(function () {
     						var parent2 = $(".rand2");
-			    			var divs2 = parent.children();
+			    			var divs2 = parent2.children();
 			    			while (divs2.length) {
-			        		parent1.append(divs2.splice(Math.floor(Math.random() * divs2.length), 1)[0]);
-			    		}
+							if not $("#toggle_logotypes")
+			        				parent2.append(divs2.splice(Math.floor(Math.random() * divs2.length), 1)[0]);
+							}
+			    			}
 					});
-				</script>				
+				</script>			
+			<div class="portfolio rand2">				
 				<div><img src="../logotypes/thumbs/img1.gif" width="156" height="126" alt="" /></div>
 				<div><img src="../logotypes/thumbs/img2.gif" width="156" height="126" alt="" /></div>
 				<div><img src="../logotypes/thumbs/img3.gif" width="156" height="126" alt="" /></div>
@@ -90,16 +92,16 @@
 			<table class="phead" cellpadding="0" cellspacing="0"><tr>
 				<td class="col1"><p>Stationery</p></td>
 			</tr></table>
-			<div class="portfolio rand3">
 				<script>
 					$(function () {
     						var parent3 = $(".rand3");
-			    			var divs3 = parent.children();
+			    			var divs3 = parent3.children();
 			    			while (divs3.length) {
-			        		parent3.append(divs3.splice(Math.floor(Math.random() * divs3.length), 1)[0]);
-			    		}
+			        			parent3.append(divs3.splice(Math.floor(Math.random() * divs3.length), 1)[0]);
+			    			}
 					});
-				</script>					
+				</script>			
+			<div class="portfolio rand3">					
 				<div><a href="../collateral/img2.jpg" rel="lightbox"><img src="../collateral/thumbs/img2.gif" width="156" height="126" alt="" /></a></div>
 				<div><img src="../collateral/thumbs/img1.gif" width="156" height="126" alt="" /></div>
 				<div><a href="../collateral/img1.jpg" rel="lightbox"><img src="../collateral/thumbs/img3.gif" width="156" height="126" alt="" /></a></div>
