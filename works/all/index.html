@@ -67,8 +67,8 @@
 			</tr></table>
 				<script>
 					$(function () {
-    						var parent2 = $(".rand2").not("#toggle_logotypes");
-			    			var divs2 = parent2.children();
+    						var parent2 = $(".rand2");
+			    			var divs2 = parent2.children().not("#toggle_logotypes");
 			    			while (divs2.length) {
 			        				parent2.append(divs2.splice(Math.floor(Math.random() * divs2.length), 1)[0]);
 			    			}
