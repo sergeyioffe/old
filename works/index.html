@@ -9,6 +9,7 @@
 	<link rel="SHORTCUT ICON" type="image/x-icon" href="../favicon.ico" />
 	<script type="text/javascript" src="../scripts/popup.js"></script>
 	<script type="text/javascript" src="../scripts/lightbox.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 </head>
 <body>
 <center>
@@ -25,20 +26,29 @@
 		</ul>
 	</div>
 	<div id="content">
+		<script>
+			$(function () {
+    			var parent = $("#folio");
+			    var divs = parent.children();
+			    while (divs.length) {
+			        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+			    }
+			});
+		</script>	
 		<h1>Works</h1>
 		<div id="folio">	
-			<div><a href="websites/w_item_4.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_1.gif" /></a></div>
-			<div><a href="websites/w_item_3.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_5.gif" /></a></div>
-			<div><a href="websites/w_item_1.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_6.gif" /></a></div>				
-			<div><a href="websites/w_item_10.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_3.gif" /></a></div>
-			<div><a href="websites/w_item_6.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_9.gif" /></a></div>
-			<div><a href="websites/w_item_2.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_10.gif" /></a></div>
-			<div><a href="websites/w_item_8.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_12.gif" /></a></div>
-			<div><a href="websites/w_item_9.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_13.gif" /></a></div>
-			<div><a href="websites/w_item_16.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_16.gif" /></a></div>
-			<div><a href="collateral/c_item_1.jpg" rel="lightbox"><img src="collateral/thumbs/img3.gif" /></a></div>
-			<div><a href="websites/w_item_7.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_2.gif" /></a></div>
-			<div><a href="websites/w_item_12.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_8.gif" /></a></div>
+			<div><a href="websites/w_item_4.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_1.gif"/></a></div>
+			<div><a href="websites/w_item_3.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_5.gif"/></a></div>
+			<div><a href="websites/w_item_1.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_6.gif"/></a></div>				
+			<div><a href="websites/w_item_10.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_3.gif"/></a></div>
+			<div><a href="websites/w_item_6.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_9.gif"/></a></div>
+			<div><a href="websites/w_item_2.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_10.gif"/></a></div>
+			<div><a href="websites/w_item_8.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_12.gif"/></a></div>
+			<div><a href="websites/w_item_9.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_13.gif"/></a></div>
+			<div><a href="websites/w_item_16.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_16.gif"/></a></div>
+			<div><a href="collateral/c_item_1.jpg" rel="lightbox"><img src="collateral/thumbs/img3.gif"/></a></div>
+			<div><a href="websites/w_item_7.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_2.gif"/></a></div>
+			<div><a href="websites/w_item_12.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_8.gif"/></a></div>
 		</div><br style="clear:both; padding-bottom:20px"/><br/><br/>
 		<a id="cool_link2" href="all/">More works</a>
 	</div>
